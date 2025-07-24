@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  users: [User!]!
+}
+
+enum Role {
+  INVESTOR
+  OWNER
+}
+
+type User {
+  email: String!
+  id: Int!
+  role: Role!
+}
