@@ -1,0 +1,42 @@
+# --- Node.js ---
+node_modules/
+dist/
+build/
+*.log
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Environment files ---
+.env
+.env.*        # .env.local, .env.dev, etc.
+
+# --- SQLite ---
+*.db
+*.sqlite
+*.db-journal
+
+# --- Prisma ---
+.prisma/
+migrations/
+
+# --- Vite (React Frontend) ---
+.vite/
+coverage/
+*.local
+*.cache
+
+# --- NestJS ---
+/coverage
+/.scannerwork
+
+# --- GraphQL ---
+*.graphql.ts
+*.graphql.js
+generated/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
